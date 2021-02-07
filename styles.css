@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+.navbar {
+    padding: 2% 10% 2% 10%;
+}
+.navbar-brand {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    color: #305973;
+    font-weight: 570;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+.nav-link:hover {
+    color: orange;
+}
+
+.cet {
+    width: 100%;
+}
+
+#logo {
+    width: 100%;
+}
+
+
+
+#bg {
+    text-align: center;
+}
+
+img {
+    width: 90%;
+}
+
+.bgtxt {
+    margin-top: 10%;
+    position: absolute;
+    left: 40%;
+    transform: translate(-33%, -50%);
+}
+
+.bgtxt h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 4.5vw;
+
+}
+
+.bgtxt h3 {
+    color: white;
+    font-size: 1.5vw;
+
+}
+
+.missionh1 {
+    margin-right: 5%;
+}
+
+.mission-p {
+    font-weight: 600;
+    margin-right: 15%;
+}
+
+
+.vision-p{
+    font-weight: 600;
+}
+
+#Mission_Vision {
+    background-image: url(images/Group\ 1\ \(6\).png);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    padding-bottom: 10%;
+    margin: 5% 15% 5% 15%;
+}
+
+#Accreditation {
+    margin: 8% 15% 5% 15%;
+}
+
+
+.mission-img{
+text-align: center;
+}
+
+
+.AccreditationStatush1 {
+    margin-bottom:2rem;
+}
+
+.QualityPolicyh1 {
+    margin-top: 10%;
+    text-align: right;
+    margin-bottom: 2rem;
+}
+
+.QualityPolicyP {
+    text-align: right;
+}
+
+
+.slider{
+    width: 80%;
+}
+
+.cardimg{
+    width: 45%;
+    margin: auto;
+}
+
+
+.news{
+    padding-left: 10%;
+    margin-top: 7rem;
+    margin-bottom: 5%;
+}
+
+
+#footer {
+    background-color: rgb(242, 246, 248);
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+a{
+    color: chocolate;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+#footer a {
+    padding-right: 2%;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+        #Mission_Vision {
+            background-size: 100%;
+            padding-bottom: 10%;
+            margin: 5% 15% 5% 15%;
+        }
+  }
