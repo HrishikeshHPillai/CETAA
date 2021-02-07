@@ -148,7 +148,7 @@ a:hover{
 @media screen and (max-width: 600px) {
   
         #Mission_Vision {
-            background-size: 100%;
+            background-image: none;
             padding-bottom: 10%;
             margin: 5% 15% 5% 15%;
         }
